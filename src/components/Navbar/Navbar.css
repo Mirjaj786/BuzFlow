@@ -3,3 +3,9 @@
   background: #111827;
   color: white;
 }
+
+.logo {
+  width: auto;
+  height: 80px;
+  object-fit: contain;
+}

@@ -1,5 +1,12 @@
-import './Navbar.css';
+import "./Navbar.css";
+import Logo from "../../assets/BizFlow_logo.png";
 
 export default function Navbar() {
-  return <nav className="navbar">Navbar</nav>;
+  return (
+    <div className="navbar">
+      <h1>This is AI BuzFlow</h1>
+      <img src={Logo} alt="Logo" className="logo" />
+      Navbar
+    </div>
+  );
 }
